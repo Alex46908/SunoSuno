@@ -99,7 +99,7 @@ Suno API currently mainly implements the following APIs:
 - \`/api/generate\`: Generate music
 - \`/v1/chat/completions\`: Generate music - Call the generate API in a format 
   that works with OpenAI’s API.
-- \`/api/custom_generate\`: Generate music (Custom Mode, support setting lyrics, 
+- \`/api/generate/v2\`: Generate music (Custom Mode, support setting lyrics, 
   music style, title, etc.)
 - \`/api/generate_lyrics\`: Generate lyrics based on prompt
 - \`/api/get\`: Get music list

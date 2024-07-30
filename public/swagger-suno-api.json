@@ -8,7 +8,7 @@
   },
   "tags": [{ "name": "\u9ed8\u8ba4\u5206\u7ec4" }],
   "paths": {
-    "/api/custom_generate": {
+    "/api/generate/v2": {
       "post": {
         "summary": "Generate Audio - Custom Mode",
         "description": "The custom mode enables users to provide additional details about the music, such as music genre, lyrics, and more.2 audio files will be generated for each request, consuming a total of 10 credits.wait_audio can be set to API mode:\u2022 By default, it is set to false, which indicates the background mode. It will only return audio task information, and you will need to call the get API to retrieve detailed audio information.\u2022 If set to true, it simulates synchronous mode. The API will wait for a maximum of 100s until the audio is generated, and will directly return the audio link and other information. Recommend using in GPTs and other agents.",
